@@ -1,8 +1,8 @@
-﻿int value1 = int.Parse(Concole,Readline());
+﻿int value1 = int.Parse(Console,ReadLine());
 int value2 = int.Parse(Console.ReadLine());
 
 double Pow1 = Math.Pow(value1, 2);
-double Pow1 = Math.Pow(value1, 2);
+double Pow2 = Math.Pow(value1, 2);
 
 if (value2 > value1)
 {
