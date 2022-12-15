@@ -4,13 +4,11 @@
 
 Console.Clear();
 
-
 const int SIZE = 10;
 const int LEFT_RANGE = 1;
 const int RIGHT_RANGE = 100;
 
 int[] array = new int[SIZE];
-
 Random rand = new Random();
 
 int[] FilleArrayWithRandomNumbers(int size, int leftRange, int rightRange)
