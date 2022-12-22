@@ -42,9 +42,9 @@ int EnterNumber(string str)
 }
 
 
-int m = EnterNumber("Введите количество строк: ");
-int n = EnterNumber("Введите количество столбцов: ");
+int rows = EnterNumber("Введите количество строк: ");
+int columns = EnterNumber("Введите количество столбцов: ");
 
-double[,] matrix = CreateRandomArray(m, n, -10, 10);
+double[,] matrix = CreateRandomArray(rows, columns, -10, 10);
 
 PrintArray(matrix);
