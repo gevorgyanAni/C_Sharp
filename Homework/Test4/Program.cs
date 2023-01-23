@@ -22,7 +22,7 @@ if (count % 2 == 0)
     Console.Write(count);
         if (count + 1 < number)
         {
-        Console.Write(", ");
+            Console.Write(", ");
         }
 }
 count++;
