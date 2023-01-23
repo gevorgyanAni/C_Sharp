@@ -1,1 +1,1 @@
-![matrix](matrix.jpg)
+![matrix](/matrix.jpg)
